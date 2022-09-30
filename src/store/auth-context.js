@@ -26,7 +26,7 @@ const retrieveStoredToken = () => {
   }
   return {
     token: storedToken,
-    duration: storedExpirationTime,
+    duration: remainingTime,
   };
 };
 
